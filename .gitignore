@@ -53,6 +53,7 @@ typings/
 *.tsbuildinfo
 
 # Optional npm cache directory
+console.log("directory:", directory)
 .npm
 
 # Optional eslint cache

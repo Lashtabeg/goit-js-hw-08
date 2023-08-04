@@ -16,7 +16,6 @@ function onInputData(event) {
   const textMess = event.target.value;
   formData[inputName] = textMess;
   localStorage.setItem(LOCAL_KEY, JSON.stringify(formData));
-  console.log(localStorage.setItem(LOCAL_KEY, JSON.stringify(formData)));
 }
 
 function setInput() {

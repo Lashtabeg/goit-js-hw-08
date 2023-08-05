@@ -22,7 +22,8 @@ function onInputData() {
 
 function onFormSub(ev) {
   ev.preventDefault();
-  console.log(getText);
+  const setData = JSON.parse(localStorage.getItem('feedback-form-state'));
+  console.log(setData);
   localStorage.removeItem(LOCAL_KEY);
   ev.currentTarget.reset();
 }
